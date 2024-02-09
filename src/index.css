@@ -1,3 +1,9 @@
+:root {
+  --main-color: hsl(168, 76%, 42%);
+  --second-color: hsl(210, 29%, 24%);
+  --second-color-dark: hsl(210, 29%, 17%);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bg-main-color {
+  background-color: var(--main-color);
+}
+
+.bg-second-color {
+  background-color: var(--second-color);
+}
+
+.bg-second-color-dark {
+  background-color: var(--second-color-dark);
+}
+
+/* ask why transitions do not work */
+.nav-link.active {
+  background-color: var(--main-color);
 }

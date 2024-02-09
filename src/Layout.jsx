@@ -22,6 +22,7 @@ export default function Layout() {
           marginTop: `${navbarHeight}px`,
           minHeight: `calc(100vh - ${navbarHeight}px)`,
         }}
+        className="position-relative"
       >
         <Outlet />
       </div>

@@ -36,7 +36,7 @@ const Navbar = React.forwardRef((props, ref) => {
   }
 
   return (
-    <nav ref={ref} className="navbar navbar-dark navbar-expand-lg bg-second-color px-3 py-4 position-fixed top-0 start-0 end-0">
+    <nav ref={ref} className="navbar navbar-dark navbar-expand-lg bg-second-color px-3 py-4 position-fixed top-0 start-0 end-0 z-3">
       <div className="container">
         <a className="navbar-brand text-uppercase fs-2 fw-bold" href="#">
           Start Framework
